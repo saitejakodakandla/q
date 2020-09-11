@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,6 +30,7 @@
 	{
 		100%{
 			transform: translate(-3400px);
+
 		}
 	}
 	.city{
@@ -43,6 +45,7 @@
 		z-index: 1;
 		background-repeat: repeat-x;
 		animation: city 20s linear infinite;
+
 	}
 	@keyframes city
 	{
@@ -66,6 +69,7 @@
 	@keyframes car: {
 		100%{
 			transform: translateY(-1px);
+
 		}
 		50%{transform: translateY(-1px);
 		}
